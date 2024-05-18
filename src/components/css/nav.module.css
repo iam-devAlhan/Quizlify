@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 1%;
+    background-color: transparent;
+    color: #fff;
+}
+li {
+    display: inline-block;
+    padding: 0px 10px;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+li:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h1:hover {
+    cursor: pointer;
+}

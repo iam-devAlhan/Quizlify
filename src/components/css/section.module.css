@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: left;
+    align-items: center;
+    padding: 1%;
+    height: 70vh;
+}
+
+.title {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 5%;
+}
+.title button {
+    font-family: 'Montserrat';
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s ease-in-out;
+}
+.title button:hover {
+    cursor: pointer;
+    background-color: #f6ff00;
+}
+.circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    background-color: #fff;
+    z-index: -1;
+}
