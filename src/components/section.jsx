@@ -65,7 +65,7 @@ const Section = function() {
                     <div className={styles.title_3}>
                         Test your learning and learn effectively now
                     </div>
-                    <div className={styles.img}><img src={image2} width='460' height='260'></img></div>
+                    <div className={styles.img}><img id={styles.img} src={image2} width='460' height='260'></img></div>
                 </section>
             </main>
     

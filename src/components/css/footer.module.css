@@ -1,0 +1,20 @@
+footer {
+    height: 30vh;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-color: rgb(0, 39, 122);
+    color: #fff;
+    gap: 10px;
+}
+#ul #li {
+    display: block;
+    font-weight: 500;
+    list-style: circle;
+}
+#ul #li:hover {
+    text-decoration: underline;
+    
+}
