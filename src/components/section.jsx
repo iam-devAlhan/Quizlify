@@ -8,10 +8,10 @@ const Section = function() {
             <main>
                 <section id={styles.section_1}>
                         <div className={styles.title}>
-                            Online Examination Portal <br />for Students and Teachers
+                            Online Examination Portal for Students and Teachers
                             <button>Get Started</button>
                         </div>
-                        <div className={styles.circle}> <img src={image} alt='some-picture' width="500" height="500"/></div>
+                        <div className={styles.circle}> <img src={image} alt='some-picture' width="350" height="350"/></div>
 
                 </section>
                 <section id={styles.section_2}> 
@@ -63,7 +63,7 @@ const Section = function() {
                 </section>
                 <section id={styles.section_3}>
                     <div className={styles.title_3}>
-                        Test your learning and<br /> learn effectively now
+                        Test your learning and learn effectively now
                     </div>
                     <div className={styles.img}><img src={image2} width='460' height='260'></img></div>
                 </section>
