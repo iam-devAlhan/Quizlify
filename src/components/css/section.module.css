@@ -9,7 +9,7 @@
 }
 
 .title {
-    font-family: 'Varela Round';
+    font-family: 'Inter Tight';
     display: flex;
     flex-direction: column;
     font-size: 3.5em;
@@ -45,11 +45,11 @@
 
 #section_2 {
     background-color: #fff;
-    height: 80vh;
+    height: 100vh;
     padding: 20px 0px;
 }
 .title_2 {
-    font-family: 'Varela Round';
+    font-family: 'Inter Tight';
     display: flex;
     font-size: 3.2rem;
     font-weight: 700;
@@ -70,21 +70,21 @@
 
 .item {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 10%;
     align-items: center;
     justify-self: center;
     width: 300px;
-    height: 105px;
+    height: 150px;
     gap: 20px;
     border-radius: 20px;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(192, 190, 190);
     color: rgb(0, 98, 255);
     font-weight: 500;
 }
 #section_3 {
     background-color: yellow;
-    height: 80vh;
+    height: 100vh;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -94,7 +94,7 @@
 }
 
 .title_3 {
-    font-family: 'Varela Round';
+    font-family: 'Inter Tight';
     display: flex;
     font-size: 3.2rem;
     font-weight: 700;
@@ -107,7 +107,6 @@
 
 #img {
     border-radius: 20px;
-    box-shadow: 10px 10px 20px black;
 }
 
 @media (max-width: 900px) {
@@ -138,9 +137,11 @@
         flex-direction: column;
         justify-content: left;
         align-items: center;
-        padding: 5%;
+        padding: 3%;
         height: fit-content;
+        width: 100%;
     }
+    
     .pads {
         display: flex;
         flex-direction: column;
