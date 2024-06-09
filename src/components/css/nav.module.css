@@ -58,6 +58,7 @@ h1:hover {
 @media (max-width: 900px) {
     header {
         background-color: #242424;
+        width: 100%;
     }
     .mobileView {
         display: none;
@@ -90,8 +91,18 @@ h1:hover {
     .mobileView #nav-link {
         display: flex;
         flex-direction: column;
+        border-radius: 20px;
         margin-top: 15px;
         font-size: 20px;
+        width: fit-content;
+        height: 30px;
+    }
+    .mobileView #nav-link:hover {
+        
+        color: #242424;
+        background-color: #fff;
+        opacity: calc(1);
+        
     }
     .container #nav-link {
         display: none;
@@ -99,7 +110,6 @@ h1:hover {
     #toggleNav {
         display: block;
     }
-
     
 
 }

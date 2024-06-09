@@ -145,8 +145,10 @@
     .pads {
         display: flex;
         flex-direction: column;
+        
     }
     .item {
+        height: fit-content;
         margin: 10px;
     }
 
