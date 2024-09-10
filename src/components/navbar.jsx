@@ -16,7 +16,7 @@ const Navbar = function () {
             <header>
                 <nav>
                     <div className={styles.container}>
-                    <h1>LOGO</h1>
+                    <h1>ProcPap</h1>
                         <ul>
                             <li id={styles['nav-link']}><a>FAQ</a></li>
                             <li id={styles['nav-link']}><a>Donate Us</a></li>
