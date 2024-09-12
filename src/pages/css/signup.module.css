@@ -1,0 +1,64 @@
+.containerBg {
+    background-color: var(--app-colors-bg);
+    color: var(--app-colors-white);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: var(--app-colors-white);
+    color: var(--app-colors-bg);
+    border: 2px solid var(--app-colors-white);
+    border-radius: 10px;
+}
+#heading {
+    margin-bottom: 5%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input {
+    padding: 5%;
+    margin: 10px 0px;
+    width: 25vw;
+    height: 5vh;
+    outline: none;
+    border: none;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+#input:focus {
+    border: 2px solid var(--app-colors-bg);
+}
+#input::placeholder {
+    font-weight: 500;
+}
+
+#button {
+    font-family: "Montserrat";
+    font-weight: 500;
+    padding: 5%;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--app-colors-bg);
+    color: var(--app-colors-white);
+    transition: 0.2s ease-out;
+}
+#button:hover {
+    background-color: var(--app-colors-bg-dark);
+    cursor: pointer;
+}

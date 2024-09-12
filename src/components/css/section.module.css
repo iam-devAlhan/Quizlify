@@ -117,8 +117,8 @@
     
 
     .title button{
-        width: 150px;
-        height: 40px;
+        width: fit-content;
+        height: fit-content;
         font-size: 20px;
     }
     .circle {
