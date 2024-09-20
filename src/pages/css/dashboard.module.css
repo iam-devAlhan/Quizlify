@@ -1,0 +1,88 @@
+
+#btn {
+    font-size: 20px;
+    font-weight: 500;
+    border: 1.5px solid var(--app-colors-white);
+    padding: 5%;
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color: #171717;
+    color: var(--app-colors-white);
+    transition: 0.2s ease-out;
+}
+#btn:hover {
+    background-color: var(--app-colors-white);
+    color: #171717;
+}
+.container {
+    display: flex;
+    background-color: var(--app-colors-white);
+    color: var(--app-colors-bg);
+    width: auto;
+    height: 100vh;
+}
+.propList {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: left;
+}
+.propItem {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    transition: 0.3s ease-out;
+}
+.propItem:hover {
+    color: rgb(49, 145, 255);
+    cursor: pointer;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    background-color: #171717;
+    color: var(--app-colors-white);
+    font-size: 20px;
+    width: 20%;
+    height: 100vh;
+    z-index: 2;
+    position: sticky;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease-out;
+}
+
+.menuList {
+    list-style: none;
+    margin: 0px 10px;
+}
+.menuItem {
+    font-weight: 700;
+    margin-top: 10px;
+    width: 200px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.2s ease-out;   
+}
+.menuItem:hover {
+    cursor: pointer;
+    background-color: var(--app-colors-white);
+    color: var(--app-colors-bg);
+}
+#mainContent {
+    padding: 2%;
+    width: 100%;
+    overflow: scroll;
+    color: #171717;
+}
