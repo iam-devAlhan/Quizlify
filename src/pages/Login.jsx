@@ -16,7 +16,7 @@ const Login = function() {
     const submitHandler = function(event) {
         event.preventDefault();
         if (newUser.name === user.name && newUser.email === user.email && newUser.password === user.password) {
-            navigate('/dashboard');
+            navigate('/home/your_activity');
         }
         else {
             alert("Wrong Credentials, try again")
