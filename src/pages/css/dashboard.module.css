@@ -82,12 +82,14 @@
 }
 #mainContent {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: left;
-    justify-content: space-between;
     padding: 2%;
     width: 100%;
     overflow: scroll;
+    scrollbar-color: #121212;
+    scroll-behavior: smooth;
+    scroll-snap-type: proximity;
     color: #171717;
 }
 #themeToggler {
