@@ -157,7 +157,7 @@ export default function CreateTest() {
                             <>
                                 <div style={{display: "flex", flexDirection: "column"}} key={index}>
                                 <label>
-                                    Write your Question:
+                                    Question No. {index + 1} 
                                 </label>
                                 <input type="text" placeholder="Enter Question: .." name="title" value={data.title} onChange={(e) => onChangeFormData(e, index)}/>
                                 <label>
