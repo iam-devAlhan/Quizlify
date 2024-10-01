@@ -8,6 +8,7 @@ import Group from './pages/dashboard/group';
 import Workspace from './pages/dashboard/workspace';
 import Grades from './pages/dashboard/grades';
 import Activity from './pages/dashboard/activity';
+import CreateTest from './pages/dashboard/createTest';
 function App() {
 
 
@@ -20,8 +21,9 @@ function App() {
           <Route path="your_activity" element={<Activity />} />
           <Route path='groups' element={<Group />}></Route>
           <Route path='workspace' element={<Workspace />}></Route>
-          <Route path='grades' element={<Grades />}></Route> 
+          <Route path='grades' element={<Grades />}></Route>
         </Route>
+        <Route path='/createTest' element={<CreateTest />}></Route> 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>

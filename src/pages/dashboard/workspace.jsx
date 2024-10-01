@@ -1,11 +1,36 @@
-
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export default function Workspace() {
+    
+    const Button = styled.button`
+        display: flex;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        padding: 3%;
+        border: none;
+        border-radius: 10px;
+        font-size: 15px;
+        background-color: rgb(0, 99, 255);
+        color: white;
+        margin: 10px;
+        transition: 0.2s ease-out;
+
+        &:hover {
+            opacity: calc(0.7);
+            cursor: pointer;
+        }
+    `
     return (
         <>
             <div>
-                    <h1>Workspace</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quidem doloremque sint distinctio, totam, quibusdam dignissimos mollitia corporis repellendus voluptatum quis odio illum, veniam aut optio necessitatibus! Aliquid, expedita nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt iure harum illo consequatur perspiciatis reiciendis animi quos dolores sequi, culpa quae facilis deserunt et ducimus maxime aspernatur eius placeat qui!</p>
+                    <h1>Your Workspace</h1>
+                        <Button>Create Room</Button>
+                    <Link style={{textDecoration: "none"}}to="/createTest">
+                        <Button>Create Test</Button>
+                    </Link>
+                    
             </div>
         
         </>
