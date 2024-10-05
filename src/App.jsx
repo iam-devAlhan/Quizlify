@@ -9,6 +9,7 @@ import Workspace from './pages/dashboard/workspace';
 import Grades from './pages/dashboard/grades';
 import Activity from './pages/dashboard/activity';
 import CreateTest from './pages/dashboard/createTest';
+import QuizForm from './pages/dashboard/quiz';
 function App() {
 
 
@@ -23,7 +24,8 @@ function App() {
           <Route path='workspace' element={<Workspace />}></Route>
           <Route path='grades' element={<Grades />}></Route>
         </Route>
-        <Route path='/createTest' element={<CreateTest />}></Route> 
+        <Route path='/createTest' element={<CreateTest />}></Route>
+        <Route path='/quiz' element={<QuizForm />}></Route> 
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
       </Routes>
