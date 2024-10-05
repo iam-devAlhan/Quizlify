@@ -1,4 +1,4 @@
-
+import React from "react";
 class QuizForm extends React.Component {
 
     render() {
@@ -6,7 +6,8 @@ class QuizForm extends React.Component {
             <>
             <div>
                 Quiz Page    
-            </div></>
+            </div>
+            </>
         )
     }
 }
