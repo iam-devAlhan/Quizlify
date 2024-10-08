@@ -10,6 +10,7 @@ import Grades from './pages/dashboard/grades';
 import Activity from './pages/dashboard/activity';
 import CreateTest from './pages/dashboard/createTest';
 import QuizForm from './pages/dashboard/quiz';
+import Room from './pages/dashboard/room';
 function App() {
 
 
@@ -24,6 +25,7 @@ function App() {
           <Route path='workspace' element={<Workspace />}></Route>
           <Route path='grades' element={<Grades />}></Route>
         </Route>
+        <Route path='/room' element={<Room />}></Route>
         <Route path='/createTest' element={<CreateTest />}></Route>
         <Route path='/quiz' element={<QuizForm />}></Route> 
         <Route path="/signup" element={<SignUp />} />

@@ -8,7 +8,7 @@ export default function Workspace() {
         align-items: center;
         height: fit-content;
         width: fit-content;
-        padding: 3%;
+        padding: 10px;
         border: none;
         border-radius: 10px;
         font-size: 15px;
@@ -26,10 +26,15 @@ export default function Workspace() {
         <>
             <div>
                     <h1>Your Workspace</h1>
+                    <Link style={{textDecoration: "none"}} to="/room">
                         <Button>Create Room</Button>
+                    </Link>
+                        
                     <Link style={{textDecoration: "none"}}to="/createTest">
                         <Button>Create Test</Button>
                     </Link>
+
+                    
                     
             </div>
         
