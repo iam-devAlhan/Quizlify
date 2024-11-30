@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --app-colors-bg: #0073ff;
+    --app-colors-bg: #003b82;
     --app-colors-white: #fff;
-    --app-colors-bg-dark: #003f8c;
+    --app-colors-milky: #cfcfcf;
+    --app-colors-bg-dark: rgb(0, 31, 46);
     
 }
 * {
