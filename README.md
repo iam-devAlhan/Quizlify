@@ -9,3 +9,5 @@ AlhaanAhmed-duet
 // Following contributors after me will be added!!
 
 Let's Talk less and code the application with me to make it successful!!
+
+I have completed till firebase signup and more things are remaining
